@@ -1,0 +1,10 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Thomas Lee
+  host: Thomas-Lee
+  disk_quota: 1024M
+  services:
+  - Tradeoff Analytics-yh
